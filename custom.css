@@ -1,0 +1,105 @@
+/*custom styles for all screen size*/
+
+.jumbotron{
+	background: url(splash_designer.jpg);
+	background-size: cover;
+	color: white;
+	margin-top: 38px;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.break{
+	margin-top: 32px;
+}
+
+.skill{
+	font-size: 60px;
+	margin-top: 5%;
+}
+
+.front_end, .back_end, .technologies{
+	margin-top: 5%;
+}
+
+#full_stack{
+	border-style: solid;
+	border-radius: 30px;
+}
+
+.best_city{
+	margin-top: 15%;
+	color: #3acec2;
+}
+
+.best_city_p{
+	color: #3acec2;
+}
+
+.list-group{
+	margin-left: 7%;
+}
+
+.flicker, .bestCity, .JJ, .tutor{
+	margin-top: 5%;
+}
+
+.flicker, #flicker_app{
+	color: #1e90ff;
+}
+
+
+.footer_a{
+	margin-left: 10%;
+}
+
+.footer_b{
+	margin-left: 15%;
+}
+
+.about{
+	margin-left: 8%;
+}
+
+
+
+@media(max-width: 767px)
+{
+	.jumbotron{
+		margin-top:70px;
+	}
+	.fullstack{
+		margin-left: 135px;
+	}
+	.Bestcity{
+		margin-left: 420px;
+	}
+  	
+  	.footer_b{
+  		margin-top: 5%;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+}
+
+@media(max-width: 543px)
+{
+	.nav{
+		text-align: left;
+	}
+	.fullstack{
+		margin-left: 0%;
+	}
+	.Bestcity{
+		margin-left: 0%;
+	}
+}
+
+@media(max-width: 430px)
+{
+	#front, #back, #tech{
+		width:80%;
+		margin-left: 10%;
+	}
+}
