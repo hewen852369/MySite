@@ -4,6 +4,8 @@
 //Hide hints
 $('form span').hide();
 
+window.alert('js works!');
+
 var $password = $('#password');
 var $confirmPassword = $('#confirm_password');
 
